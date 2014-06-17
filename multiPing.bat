@@ -1,0 +1,1 @@
+For /f %%i in (testservers.txt) do ping -n 1 %%i >>pingtest.txt
